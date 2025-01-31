@@ -411,12 +411,13 @@
         </h3>
         <div class="flex flex-col md:flex-row gap-3">
           <div
-            class="flex items-center justify-around rounded-lg 
-            bg-gradient-to-r from-pink-300 to-blue-300 md:basis-3/5"
+            class="flex items-center justify-around rounded-lg bg-gradient-to-r from-pink-300 to-blue-300 md:basis-3/5"
           >
             <div class="pl-12">
               <p class="text-xl pb-4">Under Price</p>
-              <h3 class="pb-4 text-3xl font-semibold whitespace-nowrap">Pet Grooming Mitt</h3>
+              <h3 class="pb-4 text-3xl font-semibold whitespace-nowrap">
+                Pet Grooming Mitt
+              </h3>
               <p class="text-xl pb-4 text-white">(Easy Hair Removal)</p>
               <h1 class="text-5xl font-semibold">$7.99</h1>
             </div>
@@ -427,17 +428,49 @@
           <div
             class="rounded-lg bg-gradient-to-r from-pink-200 to-card md:basis-2/5"
           >
-          <div class="pl-12">
-            <h3 class="pt-12 pb-4 text-3xl font-semibold whitespace-nowrap">T-Shirts For Dogs</h3>
-            <h1 class="text-5xl font-semibold text-accent">$7.99</h1>
-          </div>
-          <div class="pl-32">
-            <img src="./assets/cute-pet-mid.png" alt="" />
-          </div>
+            <div class="pl-12">
+              <h3 class="pt-12 pb-4 text-3xl font-semibold whitespace-nowrap">
+                T-Shirts For Dogs
+              </h3>
+              <h1 class="text-5xl font-semibold text-yellow-400">$7.99</h1>
+            </div>
+            <div class="pl-32">
+              <img src="./assets/cute-pet-mid.png" alt="" />
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <div>
+      <!-- float card -->
+      <div></div>
+      <footer class="footer bg-card">
+        <div
+          class="flex flex-col md:flex-row justify-between container mx-auto md:max-w-4xl lg:max-w-6xl pt-20 pb-20"
+        >
+          <nav>
+            <h4 class="flex items-center gap-3 footer-title">
+              <img src="./assets/logo-footer.png" alt="logo" /> Browse4Pets
+            </h4>
+            <p class="w-96">
+              Discover a world of treats, toys, and essentials handpicked for
+              your furry friends
+            </p>
+          </nav>
+          <nav class="flex flex-col gap-4">
+            <a class="link link-hover">Find a pet</a>
+            <a class="link link-hover">Breeds</a>
+            <a class="link link-hover">Contact Us</a>
+          </nav>
+          <nav>
+            <h4 class="footer-title">Follow Us</h4>
+            <a class="link link-hover pr-1"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="link link-hover pr-1"><i class="fa-brands fa-square-instagram"></i></a>
+            <a class="link link-hover pr-1"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="link link-hover"><i class="fa-brands fa-youtube"></i></a>
+          </nav>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
