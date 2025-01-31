@@ -441,12 +441,36 @@
         </div>
       </section>
     </main>
-    <div>
+    <div class="">
       <!-- float card -->
-      <div></div>
+      <div
+        class="translate-y-56 w-2/3 rounded-lg flex items-center justify-center md:justify-around
+         flex-col md:flex-row gap-3 bg-background container mx-auto md:max-w-4xl lg:max-w-6xl pt-10 pb-10"
+      >
+        <img src="./assets/cute-pet-mid.png" alt="" />
+        <div class="grid place-items-center md:place-items-start p-1">
+          <h3 class="pb-4 text-2xl font-semibold whitespace-nowrap">
+            Get Pawsome News!
+          </h3>
+          <p class="text-sm pb-4 text-center">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <form class="pb-4">
+            <input
+              type="email"
+              placeholder="Enter email..."
+              class="w-96 input input-bordered"
+              required
+            />
+          </form>
+          <button class="btn bg-accent hover:bg-black hover:text-accent">
+            Subscribe
+          </button>
+        </div>
+      </div>
       <footer class="footer bg-card">
         <div
-          class="flex flex-col md:flex-row justify-between container mx-auto md:max-w-4xl lg:max-w-6xl pt-20 pb-20"
+          class="flex flex-col md:flex-row justify-center md:justify-between container mx-auto md:max-w-4xl lg:max-w-6xl pt-80 pb-20"
         >
           <nav>
             <h4 class="flex items-center gap-3 footer-title">
@@ -464,9 +488,15 @@
           </nav>
           <nav>
             <h4 class="footer-title">Follow Us</h4>
-            <a class="link link-hover pr-1"><i class="fa-brands fa-square-facebook"></i></a>
-            <a class="link link-hover pr-1"><i class="fa-brands fa-square-instagram"></i></a>
-            <a class="link link-hover pr-1"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="link link-hover pr-1"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a class="link link-hover pr-1"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a class="link link-hover pr-1"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
             <a class="link link-hover"><i class="fa-brands fa-youtube"></i></a>
           </nav>
         </div>
